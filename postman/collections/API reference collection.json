@@ -175,15 +175,35 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-Api-Key",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "<API Key>",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/new_space_craft",
+					"raw": "{{baseUrl}}/newendpoint",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						"new_space_craft"
+						"newendpoint"
 					]
 				}
 			},
