@@ -167,6 +167,27 @@
 					"body": "{\n  \"message\": \"est laborum veniam occaecat\"\n}"
 				}
 			]
+		},
+		{
+			"name": "New spacecraft",
+			"id": "232843c2-b686-4fb7-9643-b1dc63b6d70c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/new_space_craft",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"new_space_craft"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
